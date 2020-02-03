@@ -1,0 +1,118 @@
+.container{
+    width: 390px;
+    background-color: #fefefe;
+    border:0.5px solid lightgray;
+    padding: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.matchRate,.matchSelection, .matchSelection>div{
+    display: inline-block
+}
+
+.matchPercentage{
+    display: block;
+}
+
+.boxHeader > h1{
+    font-size:24px;
+}
+
+.matchCode{
+    font-size: 18px;
+}
+
+.matchName{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.matchRate{
+    margin-right: 30px;
+}
+
+.matchRates{
+    margin-top: 10px;
+}
+
+.matchSelection{
+    height: 20px;
+    border-radius: 2px;
+    border:1px solid black;
+}
+
+.selectionCode{
+    height: 100%;
+    display: inline-block;
+    width: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 20px;
+    font-size:12px;
+}
+
+.selectionPercentage{
+    height: 100%;
+    display: inline-block;
+   width: 40px;
+    text-align: center;
+    line-height: 20px;
+    font-size:12px;
+}
+
+.matchPercentage{
+    color:darkgrey;
+    font-size:12px;
+    margin-top: 5px;
+}
+
+.result{
+    overflow: auto;
+    margin-bottom:15px
+}
+
+.resultBox{
+    display: inline-block;
+}
+
+.misli{
+    float:left;
+}
+
+.fiyat,.fiyat>div>span{
+    float: right;
+    font-size: 14px;
+}
+
+.misliText{
+    line-height: 34px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.misliSelect{
+    height: 34px;
+    width: 55px;
+    font-weight: bold;
+    border:0.5px solid lightgray
+}
+
+.footer{
+    height:60px;
+    background-color: yellow;
+    overflow: auto;
+    width: 420px;
+    border:0.5px solid lightgray;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.hemenOyna{
+    float: right;
+    line-height: 60px;
+    font-weight: bold;
+    margin-right: 20px;
+}
